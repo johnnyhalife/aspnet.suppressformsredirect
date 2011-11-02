@@ -23,3 +23,7 @@ Or you are using WCF Web API (or something like MVC with more control on the Res
     response.Headers.Add(SuppressFormsAuthenticationRedirectModule.SuppressFormsHeaderName, "true");
 
     throw new HttpResponseException(response);
+
+##Meta
+Copyright (c) 2011 by Johnny Halife, Juan Pablo Garcia, Mauro Krikorian, Mariano Converti, 
+					  Damian Martinez, Nico Bello, and Ezequiel Morito
