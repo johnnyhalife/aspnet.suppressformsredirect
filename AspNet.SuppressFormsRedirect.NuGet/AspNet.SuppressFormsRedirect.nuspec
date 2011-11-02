@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>aspnet.suppressformsredirect</id>
-    <version>0.0.1.0</version>
+    <version>0.0.1.1</version>
     <title>ASP.NET Suppress Forms Authentication Redirect</title>
     <authors>Johnny Halife, Juan Pablo Garcia, Mauro Krikorian, Mariano Converti, Damian Martinez, Nico Bello, and Ezequiel Morito </authors>
     <owners>Johnny Halife, Juan Pablo Garcia, Mauro Krikorian, Mariano Converti, Damian Martinez, Nico Bello, and Ezequiel Morito </owners>
