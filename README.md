@@ -5,7 +5,9 @@ JSON, and all other of non Web Representation (Views/Pages) type of requests.
 For more information read Phill Haack's post about this http://haacked.com/archive/2011/10/04/prevent-forms-authentication-login-page-redirect-when-you-donrsquot-want.aspx
 
 ##Installation 
+
 Pull it from the online NuGet source, as easy as...
+
     install-package aspnet.suppressformsredirect
 
 
