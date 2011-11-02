@@ -19,7 +19,7 @@ You can use it from anywhere on your App, where you want to send a 401. We provi
 
 Or you are using WCF Web API (or something like MVC with more control on the Response) just include a custom header
 
-    var response = new HttpResponseMessage(System.Net.HttpStatusCode.Forbidden);
+    var response = new HttpResponseMessage(System.Net.HttpStatusCode.Unauthorized);
     response.Headers.Add(SuppressFormsAuthenticationRedirectModule.SuppressFormsHeaderName, "true");
 
     throw new HttpResponseException(response);

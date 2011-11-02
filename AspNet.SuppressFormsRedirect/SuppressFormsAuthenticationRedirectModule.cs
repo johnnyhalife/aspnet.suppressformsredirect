@@ -68,7 +68,7 @@ namespace System.Web
 
             context.Response.TrySkipIisCustomErrors = true;
             context.Response.ClearContent();
-            context.Response.StatusCode = context.Response.StatusCode;
+            context.Response.StatusCode = 401;
             context.Response.RedirectLocation = null;
             context.Response.Flush();
             context.Response.End();
