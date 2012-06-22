@@ -83,7 +83,7 @@ namespace System.Web
         private bool ShouldSuppress(HttpApplication context)
         {
             return context.Context.Items.Contains(SuppressFormsAuthenticationKey)
-                || context.Response.Headers.AllKeys.Contains(SuppressFormsHeaderName);
+                || (HttpRuntime.UsingIntegratedPipeline && context.Response.Headers.AllKeys.Contains(SuppressFormsHeaderName));
         }
     }
 }
